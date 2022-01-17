@@ -1,7 +1,6 @@
 import java.util.*;
 /**
  * EJERCICIO PRÁCTICO EXAMEN EVAL 1 ED
- * 
  * @author JAVIER BURGOS DNI 24384001E
  * @version 1.0
  */
@@ -13,7 +12,7 @@ private double salarioBasePorHora = 10.56;
 
 /**
  * Constructor con tres parámetros
- * 
+ *
  * @param nombreCompleto nombre completo en mayúsculas
  * @param dni documento nacional de identidad con letra y sin espacios
  */
@@ -25,6 +24,7 @@ this.dni = dni;
 /**
  * Calcula el salario bruto mensual de función del salario base por hora y las horas extras.
  * El precio por hora de la hora extra se determina con la constante FACTOR_HORA_EXTRA
+ * 
  * @param horasExtra numero de horas extra dedicadas redondeado a la baja (entero)
  * @return devuelve el salario bruto mensual en euros con dos decimales
  */
